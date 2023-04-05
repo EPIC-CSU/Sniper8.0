@@ -7,7 +7,6 @@ sudo apt-get install -y build-essential zlib1g-dev libbz2-dev libboost-dev libsq
 # Configure the GCC and G++ version 9 compilers for compiling Sniper and the benchmarks
  sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 60 --slave /usr/bin/g++ g++ /usr/bin/g++-9
  sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 50 --slave /usr/bin/g++ g++ /usr/bin/g++-11
- sudo update-alternatives --config gcc
 
 # Set environment variables
 export SNIPER_ROOT=$(pwd)
