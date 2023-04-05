@@ -9,7 +9,6 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 60 --slave /u
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-11 50 --slave /usr/bin/g++ g++ /usr/bin/g++-11
 
 # Install Intel Pin
-wget https://software.intel.com/sites/landingpage/pintool/downloads/pin-3.22-98547-g7a303a835-gcc-linux.tar.gz
 tar -xvf pin-3.22-98547-g7a303a835-gcc-linux.tar.gz
 ln -s pin-3.22-98547-g7a303a835-gcc-linux pin_kit
 
