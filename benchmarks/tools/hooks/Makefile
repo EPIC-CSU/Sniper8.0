@@ -1,8 +1,9 @@
+CC := gcc-9
+CXX := g++-9
 all: libhooks_base.a libhooks_base_noroi.a buildscripts
 
 include buildconf.makefile
 
-CC=${HOOKS_CC}
 CFLAGS=${HOOKS_CFLAGS} -fPIC
 
 %.o: %.c *.h

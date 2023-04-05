@@ -1,3 +1,5 @@
+CC := gcc-9
+CXX := g++-9
 HOOKS_DIR=../tools/hooks/
 
 all : splash2-build

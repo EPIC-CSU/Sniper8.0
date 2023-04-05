@@ -1,3 +1,5 @@
+CC := gcc-9
+CXX := g++-9
 SPLASH_ROOT = $(CURDIR)
 
 include ${SPLASH_ROOT}/../../../tools/hooks/buildconf.makefile
