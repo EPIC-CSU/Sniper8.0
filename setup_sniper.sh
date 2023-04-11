@@ -2,7 +2,7 @@
 
 # Install necessary packages
 sudo apt-get update
-sudo apt-get install -y build-essential zlib1g-dev libbz2-dev libboost-dev libsqlite3-dev gfortran m4 python2 git mpich gedit gcc-9 g++-9
+sudo apt-get install -y build-essential zlib1g-dev libbz2-dev libboost-dev libsqlite3-dev gfortran m4 python2 git mpich gedit gcc-9 g++-9 gnuplot
 
 # Configure the GCC and G++ version 9 compilers for compiling Sniper and the benchmarks
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 60 --slave /usr/bin/g++ g++ /usr/bin/g++-9
